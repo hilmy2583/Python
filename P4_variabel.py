@@ -1,0 +1,27 @@
+nama_lengkap = str("Muhammad Hilmy")
+rombel = str("TI09")
+nim= str("0110222208")
+hobby= str("Membaca")
+umur= int(19)
+berat_badan= int(47)
+tinggi_badan= int(161)
+alamat_rumah="""Komp. Guru, RT 02/03, 
+                Ds. Banjarsari, Ciawi, 
+                Bogor, Jawa Barat"""
+
+print("===========================================")
+print("Nama:          ", nama_lengkap, type(nama_lengkap))
+print("Rombel:        ", rombel, type(rombel))
+print("NIM:           ", nim, type(nim))
+print("Hobby:         ", hobby, type(hobby))
+print("Umur:          ", umur, type(umur))
+print("Berat Badan:   ", berat_badan, "kg", type(berat_badan))
+print("Tinggi Badan:  ", tinggi_badan, "cm", type(tinggi_badan))
+print("Alamat:        ", alamat_rumah, type(alamat_rumah))
+print("===========================================")
+print()
+print("Angka Berat Badan lebih besar dari Tinggi Badan: ", berat_badan > tinggi_badan)
+print()
+print("Angka Tinggi Badan lebih besar dari Berat Badan: ", berat_badan < tinggi_badan)
+print()
+print("===========================================")
