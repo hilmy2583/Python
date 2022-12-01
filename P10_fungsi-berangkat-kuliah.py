@@ -7,3 +7,4 @@ def berangkat_kuliah(kondisi_cuaca):
   print("Cuaca hari ini %s, maka %s" %(kondisi_cuaca, pergi))
 
 berangkat_kuliah("Hujan")
+berangkat_kuliah("ADEM")
