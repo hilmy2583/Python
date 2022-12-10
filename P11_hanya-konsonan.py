@@ -8,4 +8,5 @@ def potong(isi):
       hasil += i
   return hasil
 
-print(potong('Nurul Fikri'))
+print("Hanya Konsonan")
+print("Nurul Fikri = " + potong('Nurul Fikri'))
