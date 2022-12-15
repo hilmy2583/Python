@@ -14,8 +14,6 @@ print(" ")
 
 from P12modulAritmatika import tambah, kurang, kali
 print("=====================Modul Aritmatika=====================")
-bil1 = int(input("Masukkan Bilangan Pertama: "))
-bil2 = int(input("Masukkan Bilangan Kedua : "))
-tambah(bil1, bil2)
-kurang(bil1, bil2)
-kali(bil1, bil2)
+tambah(3, 5, 7, 8)
+kurang(35, 12, 24)
+kali(4, 5, 7, 9)
